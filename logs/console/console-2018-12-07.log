@@ -1,0 +1,506 @@
+postgres://postgres:123@127.0.0.1:5432/fabricexplorer
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 794
+
+
+postgres://postgres:123@127.0.0.1:5432/fabricexplorer
+
+Sync process is started for the network : [network-1] and client : [client-1]
+Insert sql is INSERT INTO channel  ( "name","createdt","blocks","trans","channel_hash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO peer  ( "mspid","requests","events","server_hostname","channel_genesis_hash","peer_type" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO peer_ref_channel  ( "peerid","channelid" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO peer  ( "mspid","requests","events","server_hostname","channel_genesis_hash","peer_type" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO peer_ref_channel  ( "peerid","channelid" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO peer  ( "mspid","requests","server_hostname","channel_genesis_hash","peer_type" ) VALUES( $1,$2,$3,$4,$5  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO peer_ref_channel  ( "peerid","channelid" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 11
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 12
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 13
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 4
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 14
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 5
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 15
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 6
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 16
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 17
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 18
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 9
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 19
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 20
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 11
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 21
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 12
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 22
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 13
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 23
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 14
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 24
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 15
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 25
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 16
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 26
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 17
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 27
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 18
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 28
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 19
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 29
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 20
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 30
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 21
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 31
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 22
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 32
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 23
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 33
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 24
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 34
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 25
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","txcount","createdt","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 35
+Insert sql is INSERT INTO peer_ref_chaincode  ( "chaincodeid","cc_version","peerid","channelid" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 26
+
+
+Synchronizer pid is 848
+
+
+read_set length 139
+write_set size >>>>>>>>> :  0.5012369155883789 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 6
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 9
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 4
+read_set length 170
+write_set size >>>>>>>>> :  0.5013923645019531 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 5
+read_set length 178
+write_set size >>>>>>>>> :  0.5013961791992188 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 11
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 6
+read_set length 168
+write_set size >>>>>>>>> :  0.5014142990112305 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 12
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 7
+read_set length 123
+write_set size >>>>>>>>> :  0.5011873245239258 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 13
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 8
+read_set length 182
+write_set size >>>>>>>>> :  0.5014009475708008 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 14
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 9
+read_set length 122
+write_set size >>>>>>>>> :  0.5012283325195312 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 15
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 10
+read_set length 128
+write_set size >>>>>>>>> :  0.5012416839599609 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 16
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 11
+read_set length 123
+write_set size >>>>>>>>> :  0.5012235641479492 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 17
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 12
+read_set length 122
+write_set size >>>>>>>>> :  0.5012111663818359 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 18
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 13
+read_set length 119
+write_set size >>>>>>>>> :  0.5011911392211914 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 19
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 14
+read_set length 120
+write_set size >>>>>>>>> :  0.501215934753418 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 20
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 15
+read_set length 123
+write_set size >>>>>>>>> :  0.5011844635009766 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 21
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 16
+Broadcast >> {"title":"Block 14 added to Channel: myc","type":"block","message":"Block 14 established with 1 tx","time":"2018-12-07T05:12:38.000Z","txcount":1,"datahash":"1c0e620738f890dfbc9da2cb4dd9c9246845dfdbec46c3b34a3a69e84faf7d9f"}
+read_set length 140
+write_set size >>>>>>>>> :  0.5012369155883789 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 22
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 17
+Broadcast >> {"title":"Block 15 added to Channel: myc","type":"block","message":"Block 15 established with 1 tx","time":"2018-12-07T05:12:54.000Z","txcount":1,"datahash":"abf3c6a2be319b96aeb8ce5a03ce122a27e98e033bf60de169298ece915bfeed"}
+read_set length 135
+write_set size >>>>>>>>> :  0.5011987686157227 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 23
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 18
+Broadcast >> {"title":"Block 16 added to Channel: myc","type":"block","message":"Block 16 established with 1 tx","time":"2018-12-07T05:13:10.000Z","txcount":1,"datahash":"345183e1f6bd2324c5ad93c1c2aba7d026a045796e5ee786caf2ac54971da1c7"}
+read_set length 131
+write_set size >>>>>>>>> :  0.5012063980102539 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 24
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 19
+Broadcast >> {"title":"Block 17 added to Channel: myc","type":"block","message":"Block 17 established with 1 tx","time":"2018-12-07T05:13:25.000Z","txcount":1,"datahash":"57cce79631aa037c42e8ccd9b23a9c75ff50c5a1cf2c011ab627dc63bacac31c"}
+read_set length 129
+write_set size >>>>>>>>> :  0.5012092590332031 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 25
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 20
+Broadcast >> {"title":"Block 18 added to Channel: myc","type":"block","message":"Block 18 established with 1 tx","time":"2018-12-07T05:13:41.000Z","txcount":1,"datahash":"5241c7131130369225ad45ad4670b9f727ec94319fa49a2bdb4ae63a514572a2"}
+read_set length 129
+write_set size >>>>>>>>> :  0.5011930465698242 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 26
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 21
+Broadcast >> {"title":"Block 19 added to Channel: myc","type":"block","message":"Block 19 established with 1 tx","time":"2018-12-07T05:13:56.000Z","txcount":1,"datahash":"e4dd0ab0ea5ad500af892eadd88f90380406ce2a2abc70cd8b0ab12cee627275"}
+read_set length 141
+write_set size >>>>>>>>> :  0.5011978149414062 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 27
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 22
+Broadcast >> {"title":"Block 20 added to Channel: myc","type":"block","message":"Block 20 established with 1 tx","time":"2018-12-07T05:14:11.000Z","txcount":1,"datahash":"276fd7e369334f070a60f6cc7b1a7019fac13799fda42de3318a3eb559b5df4a"}
+read_set length 119
+write_set size >>>>>>>>> :  0.50115966796875 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 28
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 23
+Broadcast >> {"title":"Block 21 added to Channel: myc","type":"block","message":"Block 21 established with 1 tx","time":"2018-12-07T05:14:27.000Z","txcount":1,"datahash":"7951d3ab4830fcfffef13902c362db67f17d609433bf7510d6524bfd2666f505"}
+read_set length 125
+write_set size >>>>>>>>> :  0.5012073516845703 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 29
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 24
+Broadcast >> {"title":"Block 22 added to Channel: myc","type":"block","message":"Block 22 established with 1 tx","time":"2018-12-07T05:14:47.000Z","txcount":1,"datahash":"4cb52403ac512877e313f54dadde113815e4003292d91d58814d81da73378013"}
+read_set length 137
+write_set size >>>>>>>>> :  0.501220703125 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 30
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 25
+Broadcast >> {"title":"Block 23 added to Channel: myc","type":"block","message":"Block 23 established with 1 tx","time":"2018-12-07T05:17:54.000Z","txcount":1,"datahash":"95b50ce802fe5047aa245e29f0358460545d9a491d954af5eedb16e5b5382fc6"}
+read_set length 133
+write_set size >>>>>>>>> :  0.5012273788452148 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 31
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 26
+Broadcast >> {"title":"Block 24 added to Channel: myc","type":"block","message":"Block 24 established with 1 tx","time":"2018-12-07T05:18:17.000Z","txcount":1,"datahash":"454b1581f87b4b72f39e826257b747379ff125aa6cc8f9c20bd7803254be0015"}
+read_set length 130
+write_set size >>>>>>>>> :  0.5012493133544922 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 32
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 27
+Broadcast >> {"title":"Block 25 added to Channel: myc","type":"block","message":"Block 25 established with 1 tx","time":"2018-12-07T05:18:33.000Z","txcount":1,"datahash":"22c41637f3917af6593ddf983cfa0d9bd6fd5631b23f473b623a4b6ef24e8022"}
+read_set length 128
+write_set size >>>>>>>>> :  0.5012178421020508 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 33
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 28
+Broadcast >> {"title":"Block 26 added to Channel: myc","type":"block","message":"Block 26 established with 1 tx","time":"2018-12-07T05:18:52.000Z","txcount":1,"datahash":"c51e4d7f99f1d0ccca62b930d4ed56fee4038a1a60cd995a72f44de7ffe66c1c"}
+read_set length 128
+write_set size >>>>>>>>> :  0.5012302398681641 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 34
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 29
+Broadcast >> {"title":"Block 27 added to Channel: myc","type":"block","message":"Block 27 established with 1 tx","time":"2018-12-07T05:19:09.000Z","txcount":1,"datahash":"41c2ff4252a3380d0b07ccd32fc22e9c68a5e60cb860f1b4985bd1dc0a62f183"}
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+read_set length 1101
+write_set size >>>>>>>>> :  0.5021343231201172 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 35
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 30
+Broadcast >> {"title":"Block 29 added to Channel: myc","type":"block","message":"Block 29 established with 1 tx","time":"2018-12-07T05:25:38.000Z","txcount":1,"datahash":"c0977d17695a9f4862bb33ede2908ba195b81ec8cfb5fd816825b69a39a71c4d"}
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+[31merror[39m: [Admin.js]: GetStatus - timed out after:45000
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+[31merror[39m: [Admin.js]: GetStatus - timed out after:45000
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+[31merror[39m: [Admin.js]: GetStatus - timed out after:45000
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+[31merror[39m: [Admin.js]: GetStatus - timed out after:45000
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestAccruedCharge: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestInAdvance: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/InterestRefund: Is a directory
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+cat: /home/ett/Themechain/chaincode/Transactions/MarginRefund: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalCharges: Is a directory
+cat: /home/ett/Themechain/chaincode/Transactions/PenalInterestCollection: Is a directory
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
